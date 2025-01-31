@@ -1,0 +1,195 @@
+<?xml version="1.0" ?>
+<manifest identifier="MIz1uwXSrGuSVkWfkQ147vkbpnJSpFX8D-7e2JIy" version="1"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                      http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <adlcp:location>metadata.xml</adlcp:location>
+  </metadata>
+  <organizations default="articulate_rise">
+      <organization identifier="articulate_rise">
+      <title>Managing Workplace Harassment</title>
+      <item identifier="i1" identifierref="r1" isvisible="true">
+        <title>Managing Workplace Harassment</title>
+        <adlcp:datafromlms>eyJjcHYiOiJELTdlMkpJeSIsInJsZCI6ZmFsc2V9</adlcp:datafromlms>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="r1" type="webcontent" adlcp:scormtype="sco" href="scormdriver/indexAPI.html">
+      <!-- SCORMDRIVER STUFF -->
+      <file href="scormdriver/indexAPI.html" />
+      <file href="scormdriver/preloadIntegrity.js" />
+      <file href="scormdriver/driverOptions.js" />
+      <file href="scormdriver/AICCComm.html" />
+      <file href="scormdriver/auto-scripts/AutoBookmark.js" />
+      <file href="scormdriver/auto-scripts/AutoCompleteSCO.js" />
+      <file href="scormdriver/auto-scripts/CourseExit.js" />
+      <file href="scormdriver/blank.html" />
+      <file href="scormdriver/goodbye.html" />
+      <file href="scormdriver/scormdriver.js" />
+      <file href="scormdriver/browsersniff.js" />
+
+      <!-- RUNTIME COMMON STUFF -->
+      <file href="scormcontent/index.html" />
+
+      
+        <file href="scormcontent/lib/fonts/icomoon.ttf"/>
+        <file href="scormcontent/lib/fonts/icomoon.woff"/>
+
+        <file href="scormcontent/lib/icomoon.css"/>
+        <file href="scormcontent/lib/player-0.0.11.min.js"/>
+        <file href="scormcontent/lib/lzwcompress.js"/>
+      
+
+      <!-- FRONTEND BUNDLE ASSETS -->
+      <file href="scormcontent/lib/rise/13335b32.js" />
+<file href="scormcontent/lib/rise/472f74c2.css" />
+<file href="scormcontent/lib/rise/0888bd05.js" />
+<file href="scormcontent/lib/rise/e71ccb41.css" />
+<file href="scormcontent/lib/rise/f504ebc9.js" />
+<file href="scormcontent/lib/rise/92e0d0dc.js" />
+<file href="scormcontent/lib/rise/2c5680f5.js" />
+<file href="scormcontent/lib/mondrian/entry.js" />
+<file href="scormcontent/lib/mondrian/e3bb4fa1.js" />
+<file href="scormcontent/lib/mondrian/1b3b133c.js" />
+<file href="scormcontent/lib/mondrian/215fe725.js" />
+<file href="scormcontent/lib/mondrian/c16e7dd3.js" />
+<file href="scormcontent/lib/mondrian/5ebb90af.js" />
+<file href="scormcontent/lib/mondrian/825dd797.js" />
+<file href="scormcontent/lib/mondrian/beccd965.js" />
+<file href="scormcontent/lib/mondrian/56ae9b9c.js" />
+
+
+      <!-- RUNTIME CONTENT STUFF -->
+      <file href="scormcontent/lib/fonts/OpenSans-Italic.woff" />
+<file href="scormcontent/lib/fonts/OpenSans-Bold.woff" />
+<file href="scormcontent/lib/fonts/OpenSans-Regular.woff" />
+<file href="scormcontent/lib/fonts/OpenSans-Light.woff" />
+<file href="scormcontent/lib/fonts/Lato-Black.woff" />
+<file href="scormcontent/lib/fonts/Lato-Italic.woff" />
+<file href="scormcontent/lib/fonts/Lato-Bold.woff" />
+<file href="scormcontent/lib/fonts/Lato-Regular.woff" />
+<file href="scormcontent/lib/fonts/Lato-Light.woff" />
+<file href="scormcontent/assets/NJQtunCuwMz6o9B0.jpg" />
+<file href="scormcontent/assets/Untitled%20design.jpg" />
+<file href="scormcontent/assets/Hara%20Objectives.mp3" />
+<file href="scormcontent/assets/WorkplaceHarassment.mp4" />
+<file href="scormcontent/assets/WorkplaceHarassment.jpg" />
+<file href="scormcontent/assets/stock-image.jpg" />
+<file href="scormcontent/assets/Hara_%20Module%202_%20Slide%201.mp3" />
+<file href="scormcontent/assets/Hara_%20Module%202_%20Slide%202.mp3" />
+<file href="scormcontent/assets/Untitled%20design%20%281%29.jpg" />
+<file href="scormcontent/assets/Hara_%20Module%202_%20Slide%203.mp3" />
+<file href="scormcontent/assets/Hara_%20Module%202_%20Slide%204.mp3" />
+<file href="scormcontent/assets/Module2.mp4" />
+<file href="scormcontent/assets/Module2.jpg" />
+<file href="scormcontent/assets/Hara_%20Module%202_%20Slide%205.mp3" />
+<file href="scormcontent/assets/x3BKCi/stock-image.jpg" />
+<file href="scormcontent/assets/Hara_%20Module%203_%20Slide%201.mp3" />
+<file href="scormcontent/assets/FDIPve/stock-image.jpg" />
+<file href="scormcontent/assets/Hara_%20Module%203_%20Slide%202.mp3" />
+<file href="scormcontent/assets/Hara_%20Module%203_%20Slide%203.mp3" />
+<file href="scormcontent/assets/Hara_%20Module%203_%20Slide%204.mp3" />
+<file href="scormcontent/assets/Hara_%20Module%203_%20Slide%205.mp3" />
+<file href="scormcontent/assets/Module3.mp4" />
+<file href="scormcontent/assets/Module3.jpg" />
+<file href="scormcontent/assets/IF_EyG/stock-image.jpg" />
+<file href="scormcontent/assets/Hara_%20Module%204_%20Slide%201.mp3" />
+<file href="scormcontent/assets/Hara_%20Module%204_%20Slide%202.mp3" />
+<file href="scormcontent/assets/Hara_%20Module%204_%20Slide%203.mp3" />
+<file href="scormcontent/assets/Module4.mp4" />
+<file href="scormcontent/assets/Module4.jpg" />
+<file href="scormcontent/assets/Hara_%20Module%204_%20Slide%204.mp3" />
+<file href="scormcontent/assets/nl-sfP/stock-image.jpg" />
+<file href="scormcontent/assets/qBn3R_/stock-image.jpg" />
+<file href="scormcontent/assets/Hara_%20Module%204_%20Slide%205.mp3" />
+<file href="scormcontent/assets/zfxE3x/stock-image.jpg" />
+<file href="scormcontent/assets/Hara_%20Module%205_%20Slide%201.mp3" />
+<file href="scormcontent/assets/Hara_%20Module%205_%20Slide%202.mp3" />
+<file href="scormcontent/assets/Hara_%20Module%205_%20Slide%203.mp3" />
+<file href="scormcontent/assets/Module5.mp4" />
+<file href="scormcontent/assets/Module5.jpg" />
+<file href="scormcontent/assets/stock-image.png" />
+<file href="scormcontent/assets/Hara_%20Module%205_%20Slide%204.mp3" />
+<file href="scormcontent/assets/e8f8-v/Untitled%20design%20%281%29.jpg" />
+<file href="scormcontent/assets/Hara_%20Module%205_%20Slide%205.mp3" />
+<file href="scormcontent/assets/WYahrL/stock-image.jpg" />
+<file href="scormcontent/assets/Hara_%20Module%206_%20Slide%201.mp3" />
+<file href="scormcontent/assets/TyYDvl/stock-image.jpg" />
+<file href="scormcontent/assets/Hara_%20Module%206_%20Slide%202.mp3" />
+<file href="scormcontent/assets/Hara_%20Module%206_%20Slide%203.mp3" />
+<file href="scormcontent/assets/Module6.mp4" />
+<file href="scormcontent/assets/Module6.jpg" />
+<file href="scormcontent/assets/Hara_%20Module%206_%20Slide%204.mp3" />
+<file href="scormcontent/assets/BRXN8y/stock-image.jpg" />
+<file href="scormcontent/assets/Hara_%20Module%206_%20Slide%205.mp3" />
+<file href="scormcontent/assets/UzX2GI/stock-image.jpg" />
+<file href="scormcontent/assets/Hara_%20Module%207_%20Slide%201.mp3" />
+<file href="scormcontent/assets/Untitled%20design%20%282%29.jpg" />
+<file href="scormcontent/assets/Hara_%20Module%207_%20Slide%202.mp3" />
+<file href="scormcontent/assets/Hara_%20Module%207_%20Slide%203.mp3" />
+<file href="scormcontent/assets/xpXVq1/stock-image.jpg" />
+<file href="scormcontent/assets/zfYxAq/stock-image.jpg" />
+<file href="scormcontent/assets/Hara_%20Module%207_%20Slide%204.mp3" />
+<file href="scormcontent/assets/Hara_%20Module%207_%20Slide%205.mp3" />
+<file href="scormcontent/assets/GzbjIv/stock-image.jpg" />
+<file href="scormcontent/assets/93j49B/stock-image.jpg" />
+<file href="scormcontent/assets/hi0A_4/stock-image.jpg" />
+<file href="scormcontent/assets/myykZ2/stock-image.jpg" />
+<file href="scormcontent/assets/aT98RH/stock-image.jpg" />
+<file href="scormcontent/assets/Hara_%20Module%208_%20Slide%201.mp3" />
+<file href="scormcontent/assets/Untitled%20design%20%283%29.jpg" />
+<file href="scormcontent/assets/Hara_%20Module%208_%20Slide%202.mp3" />
+<file href="scormcontent/assets/Hara_%20Module%208_%20Slide%203.mp3" />
+<file href="scormcontent/assets/5rnmto/stock-image.jpg" />
+<file href="scormcontent/assets/36IE7W/stock-image.jpg" />
+<file href="scormcontent/assets/Hara_%20Module%208_%20Sldie%204.mp3" />
+<file href="scormcontent/assets/Module8.mp4" />
+<file href="scormcontent/assets/Module8.jpg" />
+<file href="scormcontent/assets/4eIChz/stock-image.jpg" />
+<file href="scormcontent/assets/Hara_%20Module%208_%20Slide%205.mp3" />
+<file href="scormcontent/assets/sqPk5z/stock-image.jpg" />
+<file href="scormcontent/assets/Hara_%20Module%209_%20Slide%201.mp3" />
+<file href="scormcontent/assets/Hara_%20Module%209_%20Slide%202.mp3" />
+<file href="scormcontent/assets/Module9.mp4" />
+<file href="scormcontent/assets/Module9.jpg" />
+<file href="scormcontent/assets/Hara_%20Module%209_%20Slide%203.mp3" />
+<file href="scormcontent/assets/Hara_%20Module%209_%20Slide%204.mp3" />
+<file href="scormcontent/assets/VQI6RB/stock-image.jpg" />
+<file href="scormcontent/assets/Hara_%20Module%209_%20Slide%205.mp3" />
+<file href="scormcontent/assets/xi-fqX/stock-image.jpg" />
+<file href="scormcontent/assets/Hara_%20Module%2010_%20Slide%201.mp3" />
+<file href="scormcontent/assets/Untitled%20design%20%284%29.jpg" />
+<file href="scormcontent/assets/Hara_%20Module%2010_%20Slide%202.mp3" />
+<file href="scormcontent/assets/Hara_%20Module%2010_%20Slide%203.mp3" />
+<file href="scormcontent/assets/Hara_%20Module%2010_%20Slide%204.mp3" />
+<file href="scormcontent/assets/Hara_%20Module%2010_%20Slide%205.mp3" />
+<file href="scormcontent/assets/Module10.mp4" />
+<file href="scormcontent/assets/Module10.jpg" />
+<file href="scormcontent/assets/Ubujwf/stock-image.jpg" />
+<file href="scormcontent/assets/Hara_%20Module%2011_%20Slide%201.mp3" />
+<file href="scormcontent/assets/Hara_%20Module%2011_%20Slide%202.mp3" />
+<file href="scormcontent/assets/sK_9_t/stock-image.jpg" />
+<file href="scormcontent/assets/J-u7-D/stock-image.jpg" />
+<file href="scormcontent/assets/9uccW6/stock-image.jpg" />
+<file href="scormcontent/assets/e2YvC6/stock-image.jpg" />
+<file href="scormcontent/assets/Hara_%20Module%2011_%20Slide%203.mp3" />
+<file href="scormcontent/assets/Module11.mp4" />
+<file href="scormcontent/assets/Module11.jpg" />
+<file href="scormcontent/assets/Untitled%20design%20%285%29.jpg" />
+<file href="scormcontent/assets/Hara_%20Module%2011_%20Slide%204.mp3" />
+<file href="scormcontent/assets/Hara_%20Module%2011_%20Slide%205.mp3" />
+<file href="scormcontent/assets/Untitled%20design%20%286%29.jpg" />
+<file href="scormcontent/assets/Harassment.mp3" />
+<file href="scormcontent/assets/ZsAGRq/quote_background.jpg" />
+
+      <file href="scormcontent/locales/und.js" />
+
+    </resource>
+  </resources>
+</manifest>
