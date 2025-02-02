@@ -7,9 +7,9 @@
 
     <title>Managing Workplace Harassment </title>
 
-    <link type="text/css" rel="stylesheet" href="lib/icomoon.css">
-    <script type="text/javascript" src="lib/player-0.0.11.min.js"></script>
-    <script type="text/javascript" src="lib/lzwcompress.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://oasisc-maker.github.io/Managing-Workplace-Harassment/scormcontent/lib/icomoon.css">
+    <script type="text/javascript" src="https://oasisc-maker.github.io/Managing-Workplace-Harassment/scormcontent/lib/player-0.0.11.min.js"></script>
+    <script type="text/javascript" src="https://oasisc-maker.github.io/Managing-Workplace-Harassment/scormcontent/lib/lzwcompress.js"></script>
 
     <!-- Resize Hack -->
     <script type="text/javascript">
@@ -21,11 +21,11 @@
     <![endif]-->
 
     <script id="__ENTRY__" type="application/json">
-      {".js":["rise/13335b32.js"]}
+      {".js":["https://oasisc-maker.github.io/Managing-Workplace-Harassment/scormcontent/lib/rise/13335b32.js"]}
     </script>
 
     <script id="__REMOTE_ENTRIES__" type="application/json">
-      {"mondrian":{".js":["mondrian/entry.js"]}}
+      {"mondrian":{".js":["https://oasisc-maker.github.io/Managing-Workplace-Harassment/scormcontent/lib/mondrian/entry.js"]}}
     </script>
 
     <script>
@@ -42,7 +42,7 @@
                 link.onload = resolve
                 link.onerror = reject
                 link.rel = 'stylesheet'
-                link.href = 'lib/' + manifest['.css'][idx]
+                link.href = manifest['.css'][idx]
                 document.body.appendChild(link)
               }))
             }
@@ -54,7 +54,7 @@
                 var script = document.createElement('script')
                 script.onload = resolve
                 script.onerror = reject
-                script.src = 'lib/' + manifest['.js'][idx]
+                script.src = manifest['.js'][idx]
                 document.body.appendChild(script)
               }))
             }
@@ -513,11 +513,11 @@ function reportScore(score) {
 }
 
 function resolvePath(path) {
-  return ('assets/').concat(path);
+  return ('https://oasisc-maker.github.io/Managing-Workplace-Harassment/scormcontent/assets/').concat(path);
 }
 
 function resolveFontPath(font) {
-  return ('lib/fonts/').concat(font.key.split('/').reverse()[0]);
+  return ('https://oasisc-maker.github.io/Managing-Workplace-Harassment/scormcontent/lib/fonts/').concat(font.key.split('/').reverse()[0]);
 }
 
 function setLessonProgress(lessonProgress) {
